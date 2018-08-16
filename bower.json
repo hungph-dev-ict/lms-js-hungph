@@ -1,0 +1,17 @@
+{
+  "name": "lms-js-hungph",
+  "version": "1.0.1",
+  "authors": [
+    "hungph"
+  ],
+  "description": "LMS JS",
+  "main": "/",
+  "keywords": [
+    "fonticons"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/hungph-dev-ict/lms-js-hungph.git",
+  "ignore": [
+    "README.md"
+  ]
+}
