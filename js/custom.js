@@ -112,7 +112,7 @@ $(function () {
   owl.owlCarousel({
       items :4, //10 items above 1000px browser width
       itemsDesktop : [1000,1], //5 items between 1000px and 901px
-      itemsDesktopSmall : [900,1], // betweem 900px and 601px
+      itemsDesktopSmall : [900,1], // between 900px and 601px
       itemsTablet: [600,1], //2 items between 600 and 0
       itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
   });
@@ -129,4 +129,16 @@ $(function () {
 
 })(jQuery); // End of use strict
 
-
+// ===== Scroll to Top ==== 
+// $(window).scroll(function() {
+//     if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+//         $('#return-to-top').fadeIn(200);    // Fade in the arrow
+//     } else {
+//         $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+//     }
+// });
+// $('#return-to-top').click(function() {      // When arrow is clicked
+//     $('body,html').animate({
+//         scrollTop : 0                       // Scroll to top of body
+//     }, 500);
+// });
